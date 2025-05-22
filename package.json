@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "postinstall": "npx prisma generate",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.6.0",
+    "axios": "^1.7.9",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "date-fns-tz": "^3.2.0",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "path": "^0.12.7",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.6.0"
+  }
+}
